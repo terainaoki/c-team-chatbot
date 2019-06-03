@@ -1,0 +1,113 @@
+body{
+    width: 1366px;
+    margin: 0 auto;
+}
+/* <!-- ここからheader --> */ 
+.header-main{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 50%;
+    margin-left: 80px;
+    display: flex;
+}
+.header-left img{
+    width: 150px;
+    height: 150px;
+}
+.header-left p{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 30px;
+    
+}
+.header-right{
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 70px;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-right li{
+    text-decoration: none;
+    color: black;
+}
+.header-right li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* <!-- ここまでheader --> */ 
+
+/* <!-- ここからabout --> */ 
+
+.about{
+    text-align: center;
+    
+}
+.icons{
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    
+}
+.icon1{
+    text-align: center;
+}
+.icon2{
+    text-align: center;
+}
+/* <!-- ここまでabout --> */ 
+
+/* <!-- ここからchat --> */ 
+.chat{
+    text-align: center;
+    
+}
+/* <!-- ここまでchat --> */ 
+
+/* <!-- ここからmember --> */ 
+.member{
+    width: 100%;
+    text-align: center;
+}
+.cmember{
+    display: flex;
+    margin-left: 150px;
+}
+.cmember img{
+    width: 220px;
+    height: 200px;
+}
+
+/* <!-- ここまでmember --> */ 
+
+/* <!-- ここからinfo --> */ 
+
+.info{
+    width: 100%;
+    text-align: center;
+}
+.resource{
+    width: 100%;
+    margin-left: 350px;
+    display: flex;
+    text-align: center;
+}
+.resource img{
+    width: 220px;
+    height: 200px;
+}
+/* <!-- ここまでinfo --> */ 
+
+/* <!-- ここからfooter --> */ 
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffe981;
+}
+
+/* <!-- ここまでfooter --> */ 
